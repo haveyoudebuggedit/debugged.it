@@ -3,7 +3,7 @@ disablePathToLower: false
 languageCode: en-us
 title: Janos Pasztor
 theme: pasztor.at
-copyright: <span role="text" aria-label="Copyright Yanosh Pastor. All rights reserved.">Copyright &copy; Janos Pasztor. All rights reserved.</span>
+copyright: <span role="text" aria-label="Copyright Yanosh Pastor. All rights reserved.">Copyright &copy; Janos Pasztor. All rights reserved.</span><br />Do not copy. <a href="/terms">Click here for acceptable use.</a>
 disableHugoGeneratorInject: true
 enableGitInfo: true
 author:
