@@ -29,8 +29,8 @@ So far so good. However, what happens if the machine service B runs on suddenly 
 
 The default for this timeout is 10 minutes. Service A may hang for 10 minutes. Other services that rely on service A may also hang for that amount of time.
 
-{% warning %}
-Be careful! In a development environment you may not see this happening if all your services run on the same machine. TCP connections always give you a connection closed error if the other party crashes. 
-{% /warning %}
+{{% warning %}}
+**Be careful!** In a development environment you may not see this happening if all your services run on the same machine. TCP connections always give you a connection closed error if the other party crashes. 
+{{% /warning %}}
 
 So, what can you do? First of all, don’t use microservices if you don’t have to. I know, it’s the cool thing to do, but microservices bring *more* complexity due to the network in-between, not less. Other than that, you can implement the aforementioned [circuit breaker pattern](https://martinfowler.com/bliki/CircuitBreaker.html), tune TCP timeouts, and turn on [TCP keepalives](https://tldp.org/HOWTO/TCP-Keepalive-HOWTO/overview.html).
