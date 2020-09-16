@@ -233,6 +233,16 @@ html, body {
     }
   }
 
+  audio {
+    display:block;
+    width:100%;
+    height:1.5rem;
+    outline:none;
+    span {
+      line-height:1.5rem;
+    }
+  }
+
   dl {
     overflow:auto;
     position:relative;

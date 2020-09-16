@@ -25,7 +25,7 @@ With the lock-down everything changed. Students could no longer go into class ro
 
 Let me demonstrate what I mean. Please listen to the following audio sample (or [download it](/posts/into-the-school-year-with-open-source-and-a-youtuber-spirit/reverb-demonstration.mp3)):
 
-<audio preload="none" src="/posts/into-the-school-year-with-open-source-and-a-youtuber-spirit/reverb-demonstration.mp3"></audio>
+<audio preload="none" src="/posts/into-the-school-year-with-open-source-and-a-youtuber-spirit/reverb-demonstration.mp3" controls></audio>
 
 Do you see what I mean? In a class room your brain naturally deals with the echo as you are in the same setting. When listening to someone on your computer you are not. This makes it a lot harder to understand what's being said, and you are using your brain power to understand the words rather than comprehend the meaning.
 
