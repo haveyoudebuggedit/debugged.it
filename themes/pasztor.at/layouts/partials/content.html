@@ -13,6 +13,6 @@
     {{ $content = replaceRE $search $replace $content }}
 {{ end }}
 {{ if $.PublishDate }}
-    {{ $content = replaceRE "(</p>)\\s*$" " <span aria-label=\"End of article.\" role=\"text\" class=\"qed\">∎</span>$1" $content }}
+    {{ $content = replaceRE "(</p>)\\s*$" " <span aria-label=\"End of article.\" role=\"text\" class=\"tombstone\">∎</span>$1" $content }}
 {{ end }}
 {{ $content | safeHTML }}
