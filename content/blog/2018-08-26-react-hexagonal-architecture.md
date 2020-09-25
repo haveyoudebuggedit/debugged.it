@@ -1,8 +1,10 @@
 ---
 slug: react-hexagonal-architecture
+guid: https://pasztor.at/blog/react-hexagonal-architecture/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-08-26T00:00:00Z"
 publishDate: "2018-08-26T00:00:00Z"
 summary: ReactJS is a workhorse of frontend development, but it doesn't do so well in terms of S.O.L.I.D. Can we change it by adopting a classic approach?

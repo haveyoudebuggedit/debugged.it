@@ -1,8 +1,10 @@
 ---
 slug: setting-up-apache-with-php-fpm
+guid: https://pasztor.at/blog/setting-up-apache-with-php-fpm/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2013-04-29T00:00:00Z"
 publishDate: "2013-04-29T00:00:00Z"
 summary: 'Nowadays nginx seems to experience a serious growth in terms of numbers when looking at HTTP server software. Almost all articles regarding PHP-FPM detail the setup with nginx, very few talk about the good old Apache HTTPd. Admittedly, it’s a little harder to set up due to the myriad hacks layered in it’s internal infrastructure. It has one major advantage however: it handles .htaccess files which allows customers to configure their own little corner of the webserver without poking the admin or endangering the server’s stability.'

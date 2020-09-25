@@ -1,10 +1,12 @@
 ---
 title: Mockito is Bad for Your Code
 slug: mockito-is-bad-for-your-code
+guid: https://pasztor.at/blog/mockito-is-bad-for-your-code/
 summary: Mockito, a tool to make mocking easy, is actively encouraging test code. Here’s why.
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 images:
 - posts/mockito-is-bad-for-your-code/social.png
 tags:

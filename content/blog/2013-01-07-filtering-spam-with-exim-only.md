@@ -1,8 +1,10 @@
 ---
 slug: filtering-spam-with-exim-only
+guid: https://pasztor.at/blog/filtering-spam-with-exim-only/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2013-01-07T00:00:00Z"
 publishDate: "2013-01-07T00:00:00Z"
 summary: Defense against spam has always been a hassle. Statistical filters only get

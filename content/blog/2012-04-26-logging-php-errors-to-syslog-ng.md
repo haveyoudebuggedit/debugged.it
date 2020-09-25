@@ -1,8 +1,10 @@
 ---
 slug: logging-php-errors-to-syslog
+guid: https://pasztor.at/blog/logging-php-errors-to-syslog/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2012-04-26T00:00:00Z"
 publishDate: "2012-04-26T00:00:00Z"
 summary: Ever so often I get to set up hosts for running PHP. When running a load

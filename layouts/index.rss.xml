@@ -4,21 +4,25 @@
 >
     <channel>
         <title>{{ .Site.Title }}</title>
-        <atom:link href="{{ .Site.BaseURL }}/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="{{ .Site.BaseURL }}rss.xml" rel="self" type="application/rss+xml" />
         <link>{{ .Site.BaseURL }}</link>
-        <description>Random topics from the mind of a software engineer with 10+ years of experience.</description>
-        <lastBuildDate>{{ .Date }}</lastBuildDate>
+        <description>{{ .Site.Params.description }}</description>
+        <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0000" }}</lastBuildDate>
         <sy:updatePeriod>daily</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
         <language>{{ .Site.Language }}</language>
-        <copyright>{{ with .Site.Copyright }}{{.}}{{ end }}</copyright>
+        <copyright>{{ with .Site.Params.copyright }}{{.}}{{ end }}</copyright>
         {{ range first 15 (where .Site.RegularPages "Section" "blog") }}
         <item>
             <link>{{ .Permalink }}</link>
             <title>{{ .Title }}</title>
             <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
             <description>{{ .Params.summary }}</description>
-            <guid isPermaLink="true">{{ .Permalink }}</guid>
+            {{ if .Params.guid }}
+                <guid isPermaLink="false">{{ .Params.guid }}</guid>
+            {{ else }}
+                <guid isPermaLink="true">{{ .Permalink }}</guid>
+            {{ end }}
         </item>
         {{ end }}
     </channel>

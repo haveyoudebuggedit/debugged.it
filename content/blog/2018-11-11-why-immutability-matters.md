@@ -1,8 +1,10 @@
 ---
 slug: why-immutability-matters
+guid: https://pasztor.at/blog/why-immutability-matters/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-11-11T00:00:00Z"
 publishDate: "2018-11-11T00:00:00Z"
 summary: I've talked about immutable objects in clean code before, but what exactly are they? Why do we use them?

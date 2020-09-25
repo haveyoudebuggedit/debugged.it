@@ -6,17 +6,17 @@
     <h1 class="aria-only" aria-hidden="false">Latest articles</h1>
     {{ .Content }}
     <div class="posts posts--feature">
-        {{ range first 1 (where site.RegularPages "Section" "blog")}}
+        {{ range first 1 site.RegularPages}}
             {{ partial "post-featured.html" . }}
         {{ end }}
         <aside>
-            {{ range last 2 (first 3 (where site.RegularPages "Section" "blog"))}}
+            {{ range last 2 (first 3 site.RegularPages)}}
                 {{ partial "post.html" . }}
             {{ end }}
         </aside>
     </div>
     <div class="posts">
-        {{ range last 6 (first 9 (where site.RegularPages "Section" "blog"))}}
+        {{ range last 6 (first 9 site.RegularPages)}}
             {{ partial "post.html" . }}
         {{ end }}
     </div>

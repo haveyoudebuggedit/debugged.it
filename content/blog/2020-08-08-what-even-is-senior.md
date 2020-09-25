@@ -1,10 +1,12 @@
 ---
 title: What even is “Senior”?
 slug: what-even-is-senior
+guid: https://pasztor.at/blog/what-even-is-senior/
 summary: “Senior Software Developer” — says the text on the business card. But what makes someone senior? Is it the age? Is it the years in the business? Know-how? There’s a sometimes heated and, to some extent, endless debate going on what makes an engineer senior.
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 images:
 - posts/what-even-is-senior/social.png
 tags:

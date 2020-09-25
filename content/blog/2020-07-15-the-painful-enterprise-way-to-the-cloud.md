@@ -1,10 +1,12 @@
 ---
 title: The (painful) Enterprise Way to the Cloud
 slug: the-painful-enterprise-way-to-the-cloud
+guid: https://pasztor.at/blog/the-painful-enterprise-way-to-the-cloud/
 summary: Use the cloud, they said. It will be great, they said. Why is it painful then?
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 images:
 - posts/the-painful-enterprise-way-to-the-cloud/social.png
 tags:

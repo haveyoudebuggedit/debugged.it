@@ -1,8 +1,10 @@
 ---
 slug: docker-101-anatomy
+guid: https://pasztor.at/blog/docker-101-anatomy/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-02-08T00:00:00Z"
 publishDate: "2018-02-08T00:00:00Z"
 summary: Docker is (mostly) used to run Linux, but in order to successfully create a Docker image, we must first understand how Linux works.

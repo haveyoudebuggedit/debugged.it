@@ -1,8 +1,6 @@
 {{ define "css" }}
     {{- .Page.Scratch.Add "css" (partial "scss" (dict "file" "scss/blog.scss") | safeCSS) -}}
-    {{- if in .Content "<input class=\"tag-filter-input\"" -}}
-        {{- .Page.Scratch.Add "css" (partial "tagfilter" . | safeCSS) -}}
-    {{- end -}}
+    {{- .Page.Scratch.Add "css" (partial "tagfilter" . | safeCSS) -}}
 {{ end }}
 
 {{ define "main" }}

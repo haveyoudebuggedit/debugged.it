@@ -1,8 +1,10 @@
 ---
 slug: ide-matters
+guid: https://pasztor.at/blog/ide-matters/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2019-03-02T00:00:00Z"
 publishDate: "2019-03-02T00:00:00Z"
 summary: Your IDE is your best friend when it comes to being efficient. Why do so many people not use it?

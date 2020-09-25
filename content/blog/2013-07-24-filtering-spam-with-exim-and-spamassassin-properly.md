@@ -1,8 +1,10 @@
 ---
 slug: filtering-spam-with-exim-and-spamassassin-properly
+guid: https://pasztor.at/blog/filtering-spam-with-exim-and-spamassassin-properly/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2013-07-24T00:00:00Z"
 publishDate: "2013-07-24T00:00:00Z"
 summary: SpamAssassin is a frequently used companion for Exim. However, most people

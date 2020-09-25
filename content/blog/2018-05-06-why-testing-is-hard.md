@@ -1,8 +1,10 @@
 ---
 slug: why-testing-is-hard
+guid: https://pasztor.at/blog/why-testing-is-hard/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-05-06T00:00:00Z"
 publishDate: "2018-05-06T00:00:00Z"
 summary: Why do so many developers struggle with testing? Why don't we all have 9x% test coverage on our code?

@@ -1,8 +1,10 @@
 ---
 slug: functional-object-oriented-programming
+guid: https://pasztor.at/blog/functional-object-oriented-programming/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2017-10-19T00:00:00Z"
 publishDate: "2017-10-19T00:00:00Z"
 summary: Does the title strike you as strange? Do you think functional and object
@@ -208,7 +210,7 @@ blasphemy. State is a necessary evil in programming and we have to live with it.
 caching and storage implementations, or wrapper classes for external libraries.
 
 {{% tip %}}
-**Follow-up article:** If you wish to learn more about this topic, I recommend reading my follow up article “[One controller, one action](/blog/one-controller-one-action)”.
+**Follow-up article:** If you wish to learn more about this topic, I recommend reading my follow up article “[One controller, one action](/technology/one-controller-one-action)”.
 {{% /tip %}}
 
 I have been using it for a while like this and I felt no adverse effects. What do you think? Would you code like this?

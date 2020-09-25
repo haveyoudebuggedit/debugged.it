@@ -1,8 +1,10 @@
 ---
 slug: immutable-infra-2
+guid: https://pasztor.at/blog/immutable-infra-2/
 authors:
     - janos
-categories: blog
+categories:
+- Technology
 date: "2019-05-17T00:00:00Z"
 publishDate: "2019-05-17T00:00:00Z"
 summary: After setting up the server as a Docker baseline, we now venture in building a Docker infrastructure.

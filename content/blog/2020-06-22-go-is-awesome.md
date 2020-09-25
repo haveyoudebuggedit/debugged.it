@@ -1,6 +1,8 @@
 ---
-categories: blog
+categories:
+- Technology
 slug: go-is-awesome
+guid: https://pasztor.at/blog/go-is-awesome/
 date: "2020-06-22T00:00:00Z"
 publishDate: "2020-06-22T00:00:00Z"
 summary: Go certainly caught a lot of attention. Let's look at the good parts!

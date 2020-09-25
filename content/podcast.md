@@ -2,7 +2,7 @@
 title: Podcast
 ---
 
-Some of my [blog posts](/blog) are voiced. You can listen to them by clicking on the &ldquo;listen&rdquo; button on the individual articles, or on one of the platforms below:
+Some of our [blog posts](/blog) are voiced. You can listen to them by clicking on the &ldquo;listen&rdquo; button on the individual articles, or on one of the platforms below:
 
 <div class="podcasts">
 {{% podcast name="Spotify" logo="logos/spotify.svg" url="https://open.spotify.com/show/7CIjRONYPExPeFs2R8GDZ0" %}}

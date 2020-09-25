@@ -1,8 +1,10 @@
 ---
 slug: sql-introduction-part1
+guid: https://pasztor.at/blog/sql-introduction-part1/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2016-10-11T00:00:00Z"
 publishDate: "2016-10-11T00:00:00Z"
 summary: Whether you are running a web app, a financial system or a game, you need

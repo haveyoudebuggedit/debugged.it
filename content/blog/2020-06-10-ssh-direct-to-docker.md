@@ -1,6 +1,8 @@
 ---
-categories: blog
+categories:
+- Technology
 slug: "ssh-direct-to-docker"
+guid: https://pasztor.at/blog/"ssh-direct-to-docker"/
 date: "2020-06-10T00:00:00Z"
 publishDate: "2020-06-10T00:00:00Z"
 summary: Let's build an SSH server in Go that launches Docker containers for each

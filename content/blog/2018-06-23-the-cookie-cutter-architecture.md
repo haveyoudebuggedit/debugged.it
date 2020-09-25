@@ -1,8 +1,10 @@
 ---
 slug: the-cookie-cutter-architecture
+guid: https://pasztor.at/blog/the-cookie-cutter-architecture/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-06-23T00:00:00Z"
 publishDate: "2018-06-23T00:00:00Z"
 summary: When it comes to business applications, you need an architecture that scales well. This is my take, based on Uncle Bobs EBI.

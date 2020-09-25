@@ -1,8 +1,10 @@
 ---
 slug: gentoo-docker
+guid: https://pasztor.at/blog/gentoo-docker/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2019-02-19T00:00:00Z"
 publishDate: "2019-02-19T00:00:00Z"
 summary: Gentoo compiles everything from source, which sounds it might not be useful

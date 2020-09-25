@@ -1,8 +1,10 @@
 ---
 slug: selfhosting
+guid: https://pasztor.at/blog/selfhosting/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-12-24T00:00:00Z"
 publishDate: "2018-12-24T00:00:00Z"
 summary: Often when a big service provider messes up, there is an inevitable slew of people who tout the advantages of self-hosting everything. But is it really efficient?

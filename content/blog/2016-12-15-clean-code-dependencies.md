@@ -1,8 +1,10 @@
 ---
 slug: clean-code-dependencies
+guid: https://pasztor.at/blog/clean-code-dependencies/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2016-12-15T00:00:00Z"
 publishDate: "2016-12-15T00:00:00Z"
 summary: Managing dependencies is hard, especially if we are using third party libraries

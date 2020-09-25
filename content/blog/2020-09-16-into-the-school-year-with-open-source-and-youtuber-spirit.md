@@ -1,14 +1,16 @@
 ---
 title: Into the new School Year with Open Source and YouTuber Spirit 
 slug: into-the-school-year-with-open source-and-youtuber-spirit
+guid: https://pasztor.at/blog/into-the-school-year-with-open source-and-youtuber-spirit/
 summary: "Instead of doing the same old bad slides combined with bad audio on Zoom, let's learn from YouTubers and dig into free and open source tools to change the way we teach in the face of the pandemic."
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 images:
 - /posts/into-the-school-year-with-open-source-and-youtuber-spirit/social.png
 tags:
- - education
+- Education
 date: "2020-09-16T00:00:00Z"
 publishDate: "2020-09-16T00:00:00Z"
 ---

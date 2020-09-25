@@ -1,8 +1,10 @@
 ---
 slug: oop-basics
+guid: https://pasztor.at/blog/oop-basics/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2016-11-04T00:00:00Z"
 publishDate: "2016-11-04T00:00:00Z"
 summary: So you've been programming for a while, and you are still stumped with what

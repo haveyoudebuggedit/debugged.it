@@ -1,8 +1,10 @@
 ---
 slug: clean-code-responsibilities
+guid: https://pasztor.at/blog/clean-code-responsibilities/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2016-11-14T00:00:00Z"
 publishDate: "2016-11-14T00:00:00Z"
 summary: I heard you want to be a better coder. You want to use reusable pieces, and

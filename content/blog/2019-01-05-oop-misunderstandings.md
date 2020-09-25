@@ -1,8 +1,10 @@
 ---
 slug: oop-misunderstandings
+guid: https://pasztor.at/blog/oop-misunderstandings/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2019-01-05T00:00:00Z"
 publishDate: "2019-01-05T00:00:00Z"
 summary: Is OOP dead? Is Functional Programming the future? Some articles seem to suggest so. I would tend to disagree. Let's discuss!

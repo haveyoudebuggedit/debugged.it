@@ -1,8 +1,10 @@
 ---
 slug: interplanetary-filesystem
+guid: https://pasztor.at/blog/interplanetary-filesystem/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2017-01-11T00:00:00Z"
 publishDate: "2017-01-11T00:00:00Z"
 summary: Quite by accident, I've stumbled upon a rather interesting technology called

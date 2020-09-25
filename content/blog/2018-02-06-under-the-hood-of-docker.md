@@ -1,8 +1,10 @@
 ---
 slug: under-the-hood-of-docker
+guid: https://pasztor.at/blog/under-the-hood-of-docker/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-02-06T00:00:00Z"
 publishDate: "2018-02-06T00:00:00Z"
 summary: The runc and rkt container runtimes power Docker & co. But what powers the

@@ -1,8 +1,10 @@
 ---
 slug: kubernetes-is-hard
+guid: https://pasztor.at/blog/kubernetes-is-hard/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-12-04T00:00:00Z"
 publishDate: "2018-12-04T00:00:00Z"
 summary: Kubernetes won the container wars... allegedly. However, Kubernetes is still

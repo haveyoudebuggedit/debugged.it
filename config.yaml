@@ -1,23 +1,26 @@
 baseURL: https://pasztor.at
 disablePathToLower: false
 languageCode: en-us
-title: Janos Pasztor
+title: Janos & Sanja
 theme: pasztor.at
-copyright: <span role="text" aria-label="Copyright Yanosh Pastor. All rights reserved.">Copyright &copy; Janos Pasztor. All rights reserved.</span><br />Do not copy. <a href="/terms">Click here for acceptable use.</a>
+copyright: <span role="text" aria-label="Copyright Yanosh Pastor and Sanya Bonitch. All rights reserved.">Copyright &copy; Janos Pasztor &amp; Sanja Bonic. All rights reserved.</span><br />Do not copy. <a href="/terms">Click here for acceptable use.</a>
 disableHugoGeneratorInject: true
 enableGitInfo: true
 author:
   - Janos Pasztor
+  - Sanja Bonic
 permalinks:
   blog: /blog/:slug/
 taxonomies:
   tag: tags
+  category: categories
   author: authors
 params:
-  title: Janos Pasztor
+  title: Janos & Sanja
+  copyright: Copyright &copy; Janos Pasztor &amp; Sanja Bonic. All rights reserved. Do not copy.
   images:
     - social.png
-  description: Random thoughts from a software engineer with 10+ years of experience.
+  description: Random thoughts from a Software Engineer and a Software Engineering Manager.
 markup:
   goldmark:
     extensions:
@@ -46,85 +49,74 @@ menu:
       name: Home
       url: /
       weight: -110
-    - identifier: blog
-      name: Blog
-      url: /blog/
+    - identifier: technology
+      name: Technology
+      url: /categories/technology/
       weight: -100
     - identifier: podcast
       name: Podcast
       url: /podcast/
       weight: -90
     - identifier: about
-      name: About me
+      name: About us
       url: /about/
       weight: -80
     - identifier: discord
-      name: Join my Discord
+      name: Join our Discord
       url: https://discord.gg/sEWQcpe
       weight: -70
   footer:
-    - identifier: social
-      name: Social
-      weight: 2
-    - identifier: social-linkedin
-      parent: social
+    - identifier: janos
+      name: Janos
+      weight: 1
+    - identifier: janos-linkedin
+      parent: janos
       name: LinkedIn
       url: https://www.linkedin.com/in/janoszen
       weight: 1
-    - identifier: social-github
-      parent: social
+    - identifier: janos-github
+      parent: janos
       name: GitHub
       url: https://github.com/janoszen
       weight: 2
-    - identifier: social-twitter
-      parent: social
+    - identifier: janos-twitter
+      parent: janos
       name: Twitter
       url: https://twitter.com/janoszen
+      weight: 3
+
+    - identifier: sanja
+      name: Sanja
+      weight: 2
+    - identifier: sanja-linkedin
+      parent: sanja
+      name: LinkedIn
+      url: https://www.linkedin.com/in/sanjabonic
+      weight: 1
+    - identifier: sanja-github
+      parent: sanja
+      name: GitHub
+      url: https://github.com/sanjabonic
+      weight: 2
+
+    - identifier: social
+      name: Social
       weight: 3
     - identifier: social-discord
       parent: social
       name: Discord
       url: /discord
-      weight: 4
+      weight: 1
     - identifier: social-rss
       parent: social
-      name: RSS
-      url: /feed.xml
-      weight: 5
-
-    - identifier: podcast
-      name: Podcast
-      weight: 4
-    - identifier: podcast-spotify
-      parent: podcast
-      name: Spotify
-      url: https://open.spotify.com/show/7CIjRONYPExPeFs2R8GDZ0
-      weight: 1
-    - identifier: podcast-itunes
-      parent: podcast
-      name: iTunes
-      url: https://podcasts.apple.com/podcast/janos-pasztor/id1524971396
+      name: RSS (all)
+      url: /rss.xml
       weight: 2
-    - identifier: podcast-soundcloud
-      parent: podcast
-      name: SoundCloud
-      url: https://soundcloud.com/pasztor_at/
+    - identifier: social-rss-tech
+      parent: social
+      name: RSS (tech)
+      url: /technology.xml
       weight: 3
-    - identifier: podcast-deezer
-      parent: podcast
-      name: Deezer
-      url: https://deezer.com/show/1564152
-      weight: 4
-    - identifier: podcast-google
-      parent: podcast
-      name: Google
-      url: https://podcasts.google.com/feed/aHR0cHM6Ly9wYXN6dG9yLmF0L3BvZGNhc3QueG1s
-      weight: 5
-    - identifier: podcast-rss
-      parent: podcast
-      name: RSS
-      url: /podcast.xml
-      weight: 6
 
     - identifier: legal
       name: Legal
@@ -155,6 +147,7 @@ mediaTypes:
     delimiter: ""
 outputFormats:
   Podcast:
+    name: Podcast
     baseName: podcast
     rel: alternate
     isPlainText: false
@@ -169,8 +162,25 @@ outputFormats:
       suffixes:
         - xml
       type: application/rss+xml
-  feed:
-    baseName: feed
+  rss:
+    name: RSS
+    baseName: rss
+    rel: alternate
+    isPlainText: false
+    isHTML: false
+    noUgly: true
+    permalinkable: false
+    mediaType:
+      delimiter: .
+      mainType: application
+      string: application/rss+xml
+      subType: rss
+      suffixes:
+        - xml
+      type: application/rss+xml
+  technology:
+    name: Technology
+    baseName: technology
     rel: alternate
     isPlainText: false
     isHTML: false
@@ -193,7 +203,8 @@ outputs:
   home:
     - HTML
     - Podcast
-    - feed
+    - Technology
+    - RSS
     - headers
 disableKinds:
   - taxonomyTerm

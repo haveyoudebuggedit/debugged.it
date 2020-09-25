@@ -1,8 +1,10 @@
 ---
 slug: why-people-want-kubernetes
+guid: https://pasztor.at/blog/why-people-want-kubernetes/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2019-01-23T00:00:00Z"
 publishDate: "2019-01-23T00:00:00Z"
 summary: I've previously argued that running Kubernetes is hard. Why do people still want it? Let's look past the hype train and take a gander through the valuable things k8s provides.

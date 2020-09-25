@@ -1,8 +1,10 @@
 ---
 slug: kubernetes-first-major-security-hole
+guid: https://pasztor.at/blog/kubernetes-first-major-security-hole/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-12-05T00:00:00Z"
 publishDate: "2018-12-05T00:00:00Z"
 summary: Kubernetes first major security hole is out... does this mean Kubernetes is not secure? What can we learn from it?

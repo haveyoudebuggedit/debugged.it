@@ -1,8 +1,10 @@
 ---
 slug: make-everything-final
+guid: https://pasztor.at/blog/make-everything-final/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2019-02-04T00:00:00Z"
 publishDate: "2019-02-04T00:00:00Z"
 summary: 'I have a pretty radical suggestion for clean code: make all your classes final!'

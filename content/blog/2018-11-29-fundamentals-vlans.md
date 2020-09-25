@@ -1,8 +1,10 @@
 ---
 slug: fundamentals-vlans
+guid: https://pasztor.at/blog/fundamentals-vlans/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-11-29T00:00:00Z"
 publishDate: "2018-11-29T00:00:00Z"
 summary: How do you run multiple networks over the same physical network? How do virtual LANs work?

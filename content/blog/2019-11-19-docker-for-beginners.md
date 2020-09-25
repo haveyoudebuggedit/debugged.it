@@ -1,6 +1,8 @@
 ---
-categories: blog
+categories:
+- Technology
 slug: docker-for-beginners
+guid: https://pasztor.at/blog/docker-for-beginners/
 date: "2019-11-19T00:00:00Z"
 publishDate: "2019-11-19T00:00:00Z"
 summary: There are a million Docker tutorials out on the Internet, but few explain

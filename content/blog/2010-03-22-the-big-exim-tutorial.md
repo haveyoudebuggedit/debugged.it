@@ -1,8 +1,10 @@
 ---
 slug: the-big-exim-tutorial
+guid: https://pasztor.at/blog/the-big-exim-tutorial/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2010-03-22T00:00:00Z"
 publishDate: "2010-03-22T00:00:00Z"
 summary: In September 2009 I created the big Exim tutorial consisting of 5 parts on the Hungarian Unix Portal. In January 2010, I transfered it to my Hungarian site. Now I’m translating it to English.

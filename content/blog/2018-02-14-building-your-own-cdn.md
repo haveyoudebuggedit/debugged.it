@@ -1,8 +1,10 @@
 ---
 slug: building-your-own-cdn
+guid: https://pasztor.at/blog/building-your-own-cdn/
 authors: 
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-02-14T00:00:00Z"
 publishDate: "2018-02-14T00:00:00Z"
 summary: Fresh from the hold-my-beer department, why don't we build our own little CDN? Oh, and it actually makes sense.

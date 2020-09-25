@@ -1,8 +1,10 @@
 ---
 slug: stop-using-php-sessions
+guid: https://pasztor.at/blog/stop-using-php-sessions/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-01-25T00:00:00Z"
 publishDate: "2018-01-25T00:00:00Z"
 summary: OK, that title may be a little provocative, but PHP sessions have a fatal

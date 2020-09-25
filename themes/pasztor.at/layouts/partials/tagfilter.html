@@ -1,5 +1,11 @@
+/* Tags */
+.tag-test {
+    display:block;
+}
 {{- range $taxonomyName, $taxonomy := index .Site.Taxonomies "tags" -}}
-    .tag-filter-input[value="{{ $taxonomyName }}"]:checked ~ .posts .post.filter-{{$taxonomyName}} {
+    {{ $taxonomySlug := $taxonomyName | lower }}
+    /* {{ $taxonomySlug }} */
+    .tag-filter-input[value="{{ $taxonomySlug }}"]:checked ~ .posts .post.filter-{{ $taxonomySlug }} {
         display:block;
     }
 {{- end -}}

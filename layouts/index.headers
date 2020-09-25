@@ -5,6 +5,6 @@
   Strict-Transport-Security: max-age=315360000; includeSubdomains; preload
   X-Content-Type-Options: nosniff
   Feature-Policy: accelerometer 'none'; autoplay 'self'; camera 'none'; document-domain 'none'; encrypted-media 'self'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; sync-xhr 'none'; usb 'none'; screen-wake-lock 'none'; xr-spatial-tracking 'none';
-{{ range .Site.Pages }}{{.RelPermalink}}{{ $cssPath := printf "%s%s" .RelPermalink "page.css"}}{{ $css := .Page.Scratch.Get "css" | resources.FromString $cssPath | resources.Minify }}
-  Content-Security-Policy: default-src 'none'; connect-src 'self'; media-src 'self'; script-src 'self'; style-src 'self' '{{ ($css | resources.Fingerprint "sha512").Data.Integrity }}'; img-src 'self' data:; {{ if hasPrefix  .Site.BaseURL "https://" }}upgrade-insecure-requests; block-all-mixed-content; {{ end }}frame-ancestors 'none'; base-uri 'none'
-{{ end }}
+{{ range .Site.Pages }}{{ $css := .Page.Scratch.Get "css" }}{{ if $css }}{{.RelPermalink}}{{ $cssPath := printf "%s%s" .RelPermalink "page.css"}}{{ $renderedCss := (delimit (.Page.Scratch.Get "css") "") | resources.FromString $cssPath | resources.Minify }}
+  Content-Security-Policy: default-src 'none'; connect-src 'self'; media-src 'self'; script-src 'self'; style-src 'self' '{{ ($renderedCss | resources.Fingerprint "sha512").Data.Integrity }}'; img-src 'self' data:; {{ if hasPrefix  .Site.BaseURL "https://" }}upgrade-insecure-requests; block-all-mixed-content; {{ end }}frame-ancestors 'none'; base-uri 'none'
+{{ end }}{{ end }}

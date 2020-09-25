@@ -1,8 +1,10 @@
 ---
 slug: make-aws-less-painful-with-lambda
+guid: https://pasztor.at/blog/make-aws-less-painful-with-lambda/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-06-12T00:00:00Z"
 publishDate: "2018-06-12T00:00:00Z"
 summary: Amazon Web Services can sometimes be a royal pain in the backside, especially because a lot of their services are not entirely feature complete. A lot of these gaps can, however, be filled with Amazon Lambda.

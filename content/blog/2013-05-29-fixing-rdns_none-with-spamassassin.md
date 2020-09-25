@@ -1,8 +1,10 @@
 ---
 slug: fixing-rdns_none-with-spamassassin
+guid: https://pasztor.at/blog/fixing-rdns_none-with-spamassassin/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2013-05-29T00:00:00Z"
 publishDate: "2013-05-29T00:00:00Z"
 summary: When dealing with SpamAssassin and Exim, one may often encounter a mysterious

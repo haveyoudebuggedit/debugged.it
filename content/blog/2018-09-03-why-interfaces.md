@@ -1,8 +1,10 @@
 ---
 slug: why-interfaces
+guid: https://pasztor.at/blog/why-interfaces/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-09-03T00:00:00Z"
 publishDate: "2018-09-03T00:00:00Z"
 summary: 'I''ve received the same question from a fair number of people: why would you even use interfaces?'

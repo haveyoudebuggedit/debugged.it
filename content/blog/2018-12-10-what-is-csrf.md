@@ -1,8 +1,10 @@
 ---
 slug: what-is-csrf
+guid: https://pasztor.at/blog/what-is-csrf/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-12-10T07:10:00Z"
 publishDate: "2018-12-10T07:10:00Z"
 summary: Cross-Site Request Forgery is a pretty well known security vulnerability, yet many developers still fail to secure their applications. Let's discuss this!

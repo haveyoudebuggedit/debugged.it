@@ -1,8 +1,10 @@
 ---
 slug: debugging-applications-with-strace
+guid: https://pasztor.at/blog/debugging-applications-with-strace/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2012-04-19T00:00:00Z"
 publishDate: "2012-04-19T00:00:00Z"
 summary: There are times, when we get an application and need to find out what it

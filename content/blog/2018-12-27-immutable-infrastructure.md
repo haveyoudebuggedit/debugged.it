@@ -1,8 +1,10 @@
 ---
 slug: immutable-infrastructure
+guid: https://pasztor.at/blog/immutable-infrastructure/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-12-27T00:00:00Z"
 publishDate: "2018-12-27T00:00:00Z"
 summary: Immutability is an important concept I talked about before. But how do we apply it to infrastructure?

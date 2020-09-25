@@ -1,8 +1,10 @@
 ---
 slug: fundamentals-the-internet-protocol
+guid: https://pasztor.at/blog/fundamentals-the-internet-protocol/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-12-06T00:00:00Z"
 publishDate: "2018-12-06T00:00:00Z"
 summary: How do you scale a network to global proportions? The answer is the Internet Protocol. Let's dive into it.

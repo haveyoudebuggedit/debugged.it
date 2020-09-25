@@ -1,8 +1,10 @@
 ---
 slug: mandatory-upload-filters-in-the-eu
+guid: https://pasztor.at/blog/mandatory-upload-filters-in-the-eu/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-03-20T00:00:00Z"
 publishDate: "2018-03-20T00:00:00Z"
 summary: A new EU proposal would mandate all online platforms to institute upload

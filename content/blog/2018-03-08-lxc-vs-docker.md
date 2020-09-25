@@ -1,8 +1,10 @@
 ---
 slug: lxc-vs-docker
+guid: https://pasztor.at/blog/lxc-vs-docker/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-03-08T00:00:00Z"
 publishDate: "2018-03-08T00:00:00Z"
 summary: LXC is the older of the two, but how do they compare? What's the difference? Which one should you choose for your next project?

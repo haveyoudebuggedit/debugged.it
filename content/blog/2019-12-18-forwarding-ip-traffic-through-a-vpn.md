@@ -1,6 +1,8 @@
 ---
-categories: blog
+categories:
+- Technology
 slug: forwarding-ip-traffic-through-a-vpn
+guid: https://pasztor.at/blog/forwarding-ip-traffic-through-a-vpn/
 date: "2019-12-18T00:00:00Z"
 publishDate: "2019-12-18T00:00:00Z"
 summary: 'You have two servers and want to serve the traffic for an IP address on one server from another server? '

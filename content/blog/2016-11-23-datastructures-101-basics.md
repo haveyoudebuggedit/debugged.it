@@ -1,8 +1,10 @@
 ---
 slug: datastructures-101-basics
+guid: https://pasztor.at/blog/datastructures-101-basics/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2016-11-23T00:00:00Z"
 publishDate: "2016-11-23T00:00:00Z"
 summary: Why would you learn data structures? You won't need it unless you are a programmer,

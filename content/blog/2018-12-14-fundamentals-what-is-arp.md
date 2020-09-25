@@ -1,8 +1,10 @@
 ---
 slug: fundamentals-what-is-arp
+guid: https://pasztor.at/blog/fundamentals-what-is-arp/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-12-14T00:00:00Z"
 publishDate: "2018-12-14T00:00:00Z"
 summary: How does a computer know what MAC address belongs to an IP? How does ARP

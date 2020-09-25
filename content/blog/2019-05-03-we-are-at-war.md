@@ -1,8 +1,10 @@
 ---
 slug: we-are-at-war
+guid: https://pasztor.at/blog/we-are-at-war/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2019-05-03T00:00:00Z"
 publishDate: "2019-05-03T00:00:00Z"
 summary: There's an invisible war being waged in the IT industry. A war to find out which way is the best to produce code.

@@ -1,8 +1,10 @@
 ---
 slug: monitoring-basics
+guid: https://pasztor.at/blog/monitoring-basics/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-12-31T00:00:00Z"
 publishDate: "2018-12-31T00:00:00Z"
 summary: Monitoring your application is critical. But how do you do it? What are the important things you need to watch out for?

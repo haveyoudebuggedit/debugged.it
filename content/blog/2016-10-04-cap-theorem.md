@@ -1,8 +1,10 @@
 ---
 slug: cap-theorem
+guid: https://pasztor.at/blog/cap-theorem/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2016-10-04T00:00:00Z"
 publishDate: "2016-10-04T00:00:00Z"
 summary: The CAP theorem is one of the most fundamental principles of distributed

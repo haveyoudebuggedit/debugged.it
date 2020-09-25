@@ -1,8 +1,10 @@
 ---
 slug: what-is-the-ioc-container
+guid: https://pasztor.at/blog/what-is-the-ioc-container/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2019-02-11T00:00:00Z"
 publishDate: "2019-02-11T00:00:00Z"
 summary: Just what in the name of the allmighy bit is an IoC / Dependency Injection

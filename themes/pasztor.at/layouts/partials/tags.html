@@ -1,12 +1,14 @@
 <input class="tag-filter-input" type="radio" id="post-filter-all" name="post-filter" value="" checked />
 {{ range $taxonomyName, $taxonomy := index .Site.Taxonomies "tags" }}
-    <input class="tag-filter-input" type="radio" id="post-filter-{{$taxonomyName}}" name="post-filter" value="{{ $taxonomyName }}" />
+    {{ $taxonomySlug := $taxonomyName | lower }}
+    <input class="tag-filter-input" type="radio" id="post-filter-{{$taxonomySlug}}" name="post-filter" value="{{ $taxonomySlug }}" />
 {{ end }}
 <div class="tags">
     <label class="tag" for="post-filter-all" aria-label="Show all posts">All</label>
     {{ range $taxonomyName, $taxonomy := index .Site.Taxonomies "tags" }}
-        {{ with $.Site.GetPage (printf "/tags/%s" $taxonomyName) }}
-            <label class="tag" for="post-filter-{{$taxonomyName}}" aria-label="Show only posts in {{ .Title }}">{{ .Title  }}</label>
+        {{ $taxonomySlug := $taxonomyName | lower }}
+        {{ with $.Site.GetPage (printf "/tags/%s" $taxonomySlug) }}
+            <label class="tag" for="post-filter-{{$taxonomySlug}}" aria-label="Show only posts in {{ .Title }}">{{ .Title  }}</label>
         {{ end }}
     {{ end }}
 </div>

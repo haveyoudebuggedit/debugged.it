@@ -1,8 +1,10 @@
 ---
 slug: sql-introduction-part2
+guid: https://pasztor.at/blog/sql-introduction-part2/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2016-10-21T00:00:00Z"
 publishDate: "2016-10-21T00:00:00Z"
 summary: In the previous episode of our journey we have spoken about the basics of

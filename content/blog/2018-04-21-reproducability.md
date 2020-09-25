@@ -1,8 +1,10 @@
 ---
 slug: reproducability
+guid: https://pasztor.at/blog/reproducability/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-04-21T00:00:00Z"
 publishDate: "2018-04-21T00:00:00Z"
 summary: Build environments, server setups should be reproducible, even 6 months down

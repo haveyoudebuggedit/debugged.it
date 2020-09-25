@@ -1,6 +1,8 @@
 ---
-categories: blog
+categories:
+- Technology
 slug: go-is-terrible
+guid: https://pasztor.at/blog/go-is-terrible/
 date: "2020-06-22T00:00:00Z"
 publishDate: "2020-06-22T00:00:00Z"
 summary: Go certainly caught a lot of attention. Let's look at the bad parts!

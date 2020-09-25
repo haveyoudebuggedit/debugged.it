@@ -1,8 +1,10 @@
 ---
 slug: monocultures
+guid: https://pasztor.at/blog/monocultures/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2019-06-12T00:00:00Z"
 publishDate: "2019-06-12T00:00:00Z"
 summary: Monocultures already caused the death of one strand of banana. What can we learn from it in IT?

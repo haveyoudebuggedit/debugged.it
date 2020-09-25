@@ -1,8 +1,10 @@
 ---
 slug: intercontinental-docker-swarm
+guid: https://pasztor.at/blog/intercontinental-docker-swarm/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2017-10-22T00:00:00Z"
 publishDate: "2017-10-22T00:00:00Z"
 summary: 'Docker is the new hotness. Swarm is an even newer, even hotter thing. The question is: will it blend? Can it run spanning multiple continents?'

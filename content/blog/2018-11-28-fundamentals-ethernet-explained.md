@@ -1,8 +1,10 @@
 ---
 slug: fundamentals-ethernet-explained
+guid: https://pasztor.at/blog/fundamentals-ethernet-explained/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-11-28T00:00:00Z"
 publishDate: "2018-11-28T00:00:00Z"
 summary: Ethernet is one of the most fundamental protocols underpinning todays internet. It is so fundamental that we often take it as granted and don't even think about it.

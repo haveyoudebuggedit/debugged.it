@@ -1,8 +1,10 @@
 ---
 slug: unit-testing
+guid: https://pasztor.at/blog/unit-testing/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2019-03-19T00:00:00Z"
 publishDate: "2019-03-19T00:00:00Z"
 summary: Having anxiety attacks before deployment? Do you keep breaking stuff that already worked? Unit tests are here to help!

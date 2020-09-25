@@ -1,10 +1,12 @@
 ---
 title: Don’t Block ICMP
 slug: dont-block-icmp
+guid: https://pasztor.at/blog/dont-block-icmp/
 summary: “Don't ping my server!” — is the sentiment among many sysadmins, and usually leads to a full-on ICMP blocking. But, it's a terrible idea. Here's why.
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 images:
 - posts/dont-block-icmp/social.png
 tags:

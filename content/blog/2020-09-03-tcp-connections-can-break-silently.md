@@ -1,10 +1,12 @@
 ---
 title: TCP connections can break silently
 slug: tcp-connections-can-break-silently
+guid: https://pasztor.at/blog/tcp-connections-can-break-silently/
 summary: "Are you thinking of using Microservices? Here’s something you may not know: TCP connections can break entirely silently."
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 images:
 - posts/tcp-connections-can-break-silently/social.png
 tags:

@@ -24,10 +24,10 @@ Feel free to learn and build your own!
 
         {{ $sassTemplate := resources.Get "css/base.css" }}
         {{ $style := $sassTemplate | resources.ExecuteAsTemplate "css/base-rendered.css" . | resources.ToCSS }}
-        {{ .Page.Scratch.Set "css" $style.Content | safeCSS}}
+        {{ .Page.Scratch.Set "css" (slice ($style.Content | safeCSS))}}
         {{ block "css" . }}{{end}}
         {{ $cssPath := printf "%s%s" .RelPermalink "page.css"}}
-        {{ $css := .Page.Scratch.Get "css" | resources.FromString $cssPath | resources.Minify }}
+        {{ $css := (delimit (.Page.Scratch.Get "css") "") | resources.FromString $cssPath | resources.Minify }}
         <style>{{ $css.Content | safeCSS }}</style>
 
         {{ partial "head" . }}
@@ -48,7 +48,7 @@ Feel free to learn and build your own!
         {{"<!-- endregion -->\n" | safeHTML}}
 
         {{ range .AlternativeOutputFormats -}}
-            {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+            {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink .Name | safeHTML }}
         {{ end -}}
 
         {{ $baseUrl := .Site.BaseURL }}

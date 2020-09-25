@@ -4,11 +4,11 @@ title: Terms of Use
 
 ## Copyright
 
-**All materials on this website are protected by copyright.** Text, design and program code are owned by Janos Pasztor and Sanja Bonic (The Authors). Decorative images are published under license from third parties.
+**All materials on this website are protected by copyright.** Text, design and program code are owned by <span role="text" aria-label="Yanosh Pastor and Sanya Bonitch">Janos Pasztor and Sanja Bonic</span> (the Authors). Decorative images are published under license from third parties.
 
 ## Your rights
 
-Permission hereby granted free of charge to You, the Visitor, to download a copy of the materials located on the domain pasztor.at (The Website) for viewing on your computer or handheld device, or printing for your personal, non-commercial use, and for your personal educational use.
+Permission is hereby granted free of charge to You, the Visitor, to download a copy of the materials located on the domain pasztor.at (the Website) for viewing on your computer or handheld device, or printing for your personal, non-commercial use, and for your personal educational use.
 
 **Unless otherwise indicated, you may not, without prior written permission from The Authors, publicly demonstrate, or otherwise publicly use, the contents of The Website, including creating course materials from it.**
 
@@ -50,4 +50,4 @@ There are no oral side agreements to these terms. All changes to the terms are m
 
 Any disputes are subject to Austrian law (Austrian domestic law under exclusion of the referral norms and UN commercial law), legal proceedings shall be held exclusively in Vienna, Austria.
 
-This document has last been updated: August 24, 2019
+This document has last been updated: September 25, 2019

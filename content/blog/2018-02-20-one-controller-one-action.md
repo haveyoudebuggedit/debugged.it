@@ -1,8 +1,10 @@
 ---
 slug: one-controller-one-action
+guid: https://pasztor.at/blog/one-controller-one-action/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-02-20T00:00:00Z"
 publishDate: "2018-02-20T00:00:00Z"
 summary: How many actions do you put in a controller? 5-6? 20? What would you say if I told you my limit is just one method?

@@ -1,8 +1,10 @@
 ---
 slug: why-docker-matters
+guid: https://pasztor.at/blog/why-docker-matters/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-01-13T00:00:00Z"
 publishDate: "2018-01-13T00:00:00Z"
 summary: Have you ever wondered what all the fuss is about with this Docker thing?

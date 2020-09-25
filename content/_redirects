@@ -13,12 +13,12 @@
 /blog/loose-st.rict-static                             /blog/loose-strict-static
 /blog/the-loose-the-strict-and-the-static-typing       /blog/loose-strict-static
 /2013/07/24/filtering-spam-with-exim-and-spamassassin-properly /blog/filtering-spam-with-exim-and-spamassassin-properly
-/tags/clean-code.html /blog
+/tags/clean-code.html /technology
 /webkonf2012/webkonf2012.pdf https://www.youtube.com/watch?v=3PSuC9Ra4gY
 /webkonf2012 https://www.youtube.com/watch?v=3PSuC9Ra4gY
 /2013/02/06/limiting-linux-processes-cgroups-explained /blog/under-the-hood-of-docker
 /2013/01/22/lxc-vs-openvz                              /blog/lxc-vs-docker
-/2012/04/16/proper-xss-protection-in-javascript-php-and-smarty /blog/injection-type-vulnerabilities
-/feed/                                                 /feed.xml
+/2012/04/16/proper-xss-protection-in-javascript-php-and-smarty /technology/injection-type-vulnerabilities
+/feed.xml                                              /technology.xml
 
 /* /404.html 404

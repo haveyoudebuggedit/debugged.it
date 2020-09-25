@@ -1,8 +1,10 @@
 ---
 slug: the-curious-case-of-interfaces
+guid: https://pasztor.at/blog/the-curious-case-of-interfaces/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-03-23T00:00:00Z"
 publishDate: "2018-03-23T00:00:00Z"
 summary: Interfaces are like internal APIs for your code. So how should you create them?

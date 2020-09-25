@@ -1,8 +1,10 @@
 ---
 slug: immutable-infra-1
+guid: https://pasztor.at/blog/immutable-infra-1/
 authors:
     - janos
-categories: blog
+categories:
+- Technology
 date: "2019-05-15T00:00:00Z"
 publishDate: "2019-05-15T00:00:00Z"
 summary: Recently I rebuilt the infrastructure that hosts this website following the principles of immutable infrastructure. Let's see how that works!

@@ -1,8 +1,10 @@
 ---
 slug: working-with-certificates-in-java
+guid: https://pasztor.at/blog/working-with-certificates-in-java/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2017-09-28T00:00:00Z"
 publishDate: "2017-09-28T00:00:00Z"
 summary: Let's face it, the Java crypto API is a mess. It is extremely hard to use,

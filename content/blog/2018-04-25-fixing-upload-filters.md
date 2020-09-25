@@ -1,8 +1,10 @@
 ---
 slug: fixing-upload-filters
+guid: https://pasztor.at/blog/fixing-upload-filters/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-04-25T00:00:00Z"
 publishDate: "2018-04-25T00:00:00Z"
 summary: 'Here''s a thought experiment: how would I fix the upload filter law?'

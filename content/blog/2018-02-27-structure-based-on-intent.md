@@ -1,8 +1,10 @@
 ---
 slug: structure-based-on-intent
+guid: https://pasztor.at/blog/structure-based-on-intent/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-02-27T00:00:00Z"
 publishDate: "2018-02-27T00:00:00Z"
 summary: When reviewing code I often see folders like model, view, controller, form, etc. There is a way to make your folder names talk, but this ain't it.

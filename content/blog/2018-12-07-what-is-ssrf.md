@@ -1,8 +1,10 @@
 ---
 slug: what-is-ssrf
+guid: https://pasztor.at/blog/what-is-ssrf/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-12-07T00:00:00Z"
 publishDate: "2018-12-07T00:00:00Z"
 summary: Cross-site Request Forgery or CSRF is a well known security vulnerability.

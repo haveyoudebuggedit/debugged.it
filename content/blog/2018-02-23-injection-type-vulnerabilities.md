@@ -1,8 +1,10 @@
 ---
 slug: injection-type-vulnerabilities
+guid: https://pasztor.at/blog/injection-type-vulnerabilities/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-02-23T00:00:00Z"
 publishDate: "2018-02-23T00:00:00Z"
 summary: XSS, SQL injection, and other injection-class vulnerabilities can cause some serious damage. Let's root them out!

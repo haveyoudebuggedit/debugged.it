@@ -1,8 +1,10 @@
 ---
 slug: why-your-site-is-sloooooow
+guid: https://pasztor.at/blog/why-your-site-is-sloooooow/
 authors:
 - janos
-categories: blog
+categories:
+- Technology
 date: "2018-01-31T00:00:00Z"
 publishDate: "2018-01-31T00:00:00Z"
 summary: Google Tag Manager is probably the worst thing that happened to the web in
