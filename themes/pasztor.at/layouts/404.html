@@ -1,7 +1,7 @@
 {{ define "title" }}Not found :({{ end }}
 
 {{ define "css" }}
-    {{ partial "scss" (dict "file" "scss/404.scss") }}
+    {{- .Page.Scratch.Add "css" (partial "scss" (dict "file" "scss/404.scss") | safeCSS) -}}
 {{ end }}
 
 {{ define "main" }}
