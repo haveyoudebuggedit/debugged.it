@@ -94,18 +94,20 @@
             {{ partial "content.html" . }}
         </div>
         {{ if (isset .Params "authors")}}
-            {{ range $key, $author := .Params.authors }}
-                <div class="bio" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                {{- with index $.Site.Data.authors $author }}
-                    <h2 itemprop="name" aria-label="Author: {{ .fullname_pronounciation }}">{{ .fullname }}</h2>
-                    <img class="avatar" src="{{ ((resources.Get .avatar).Resize "512x 90 jpg").RelPermalink }}" alt="{{ .avatar_alt }}" />
-                    <p>{{ .bio }}</p>
-                    <nav class="readmore">
-                        <a href="/blog/" role="button">Read more by <span aria-label="{{ .name_pronounciation }}">{{ .name }}</span> &raquo;</a>
-                    </nav>
+            <div class="bios">
+                {{ range $key, $author := .Params.authors }}
+                    <div class="bio" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    {{- with index $.Site.Data.authors $author }}
+                        <h2 itemprop="name" aria-label="Author: {{ .fullname_pronounciation }}">{{ .fullname }}</h2>
+                        <img class="avatar" src="{{ ((resources.Get .avatar).Resize "512x 90 jpg").RelPermalink }}" alt="{{ .avatar_alt }}" />
+                        <p>{{ .bio }}</p>
+                    {{ end }}
+                    </div>
                 {{ end }}
-                </div>
-            {{ end }}
+                <nav class="readmore">
+                    <a href="/blog/" role="button">Read more by <span aria-label="Yanosh and Sanya">Janos &amp; Sanja</span> &raquo;</a>
+                </nav>
+            </div>
         {{ end }}
     </article>
 {{ end }}

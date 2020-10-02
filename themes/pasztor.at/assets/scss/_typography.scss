@@ -106,7 +106,7 @@ html, body {
     }
 
     .body>p, .body>ul, .body>ol, .body>figure, .body>dl, .body>div, .body>pre, .body>blockquote,
-    .body>hr, .body>h2, .body>h3, .body>h4, .body>h5, .body>h6, .bio {
+    .body>hr, .body>h2, .body>h3, .body>h4, .body>h5, .body>h6, .bios {
       margin-left: $text-margin-left;
       max-width:$text-width;
     }
@@ -131,43 +131,10 @@ html, body {
     }
   }
 
-  .bio {
-    $avatar-size: 6rem;
-    $avatar-border: 0.1rem;
-    $avatar-margin:1.5rem;
+  .bios {
     border-top:0.2rem solid $color-decor;
     margin-top:1.4rem;
     padding-top:1.4rem;
-    overflow:auto;
-
-    h2 {
-      font-size:$size-h3;
-      @if $size-h3 > 1.5rem {
-        line-height: 3rem;
-      } @else {
-        line-height: 1.5rem;
-      }
-      margin-top:0;
-    }
-    p {
-      font-size:0.8rem;
-    }
-
-    h2, p {
-      margin-right:$avatar-size+$avatar-margin;
-    }
-
-    img.avatar {
-      box-sizing: border-box;
-      float:right;
-      display:block;
-      height:$avatar-size;
-      border: $avatar-border solid $color-decor;
-      margin-left:$avatar-margin;
-      border-radius:50%;
-      position: relative;
-      top:-1.5rem;
-    }
     .readmore {
       margin-top:1.5rem;
       a {
@@ -193,6 +160,49 @@ html, body {
       .readmore {
         display:none;
       }
+    }
+  }
+
+  .bio {
+    $avatar-size: 6rem;
+    $avatar-border: 0.1rem;
+    $avatar-margin:1.5rem;
+    overflow:auto;
+
+    h2 {
+      font-size:$size-h3;
+      @if $size-h3 > 1.5rem {
+        line-height: 3rem;
+      } @else {
+        line-height: 1.5rem;
+      }
+
+      margin-top:1.5rem;
+      @media screen and (min-width: 768px) {
+        margin-top: 0;
+      }
+    }
+    &:first-child h2 {
+      margin-top: 0;
+    }
+    p {
+      font-size:0.8rem;
+    }
+
+    h2, p {
+      margin-right:$avatar-size+$avatar-margin;
+    }
+
+    img.avatar {
+      box-sizing: border-box;
+      float:right;
+      display:block;
+      height:$avatar-size;
+      border: $avatar-border solid $color-decor;
+      margin-left:$avatar-margin;
+      border-radius:50%;
+      position: relative;
+      top:-1.5rem;
     }
   }
 

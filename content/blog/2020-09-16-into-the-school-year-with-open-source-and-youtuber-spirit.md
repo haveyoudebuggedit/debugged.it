@@ -5,6 +5,7 @@ guid: https://pasztor.at/blog/into-the-school-year-with-open source-and-youtuber
 summary: "Instead of doing the same old bad slides combined with bad audio on Zoom, let's learn from YouTubers and dig into free and open source tools to change the way we teach in the face of the pandemic."
 authors:
 - janos
+- sanja
 categories:
 - Technology
 images:
