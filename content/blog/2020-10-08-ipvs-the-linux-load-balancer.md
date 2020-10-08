@@ -1,5 +1,5 @@
 ---
-title: "IPVS: The Linux Load Balancer"
+title: "IPVS: The Linux Load Balancer (Deep Dive)"
 slug: ipvs-the-linux-load-balancer
 summary: "Did you know Linux has a built-in network load balancer? Did you know it is used by Kubernetes? Let's explore!"
 authors:
@@ -17,6 +17,8 @@ publishDate: "2020-10-08T23:00:00Z"
 
 It's been part of the Linux kernel forever: IPVS, the IP Virtual Server. You'd be forgiven for now knowing about it, as it is unlikely to come across your radar unless you are in need of a high performance network load balancer.
 
+This article will explain the theory behind, and the practical operations of the IPVS load balancer included in the Linux kernel.
+
 IPVS is part of netfilter, the packet filtering and translation framework built into the Linux kernel. Netfilter is a vast topic to explain, so we won't go into any details here. Suffice it to say, IPVS is a very powerful load balancer that is in use, for example, in Kubernetes.
 
 ## A (tech) manager's overview
@@ -25,17 +27,19 @@ The tricky part about load balancing is handling the amount of traffic. IPVS off
  
 ![](/posts/ipvs-the-linux-load-balancer/nat-01.svg "IPVS in NAT mode")
  
-The simplest mode of operations is the **NAT/Masquerade mode**. The load balancer listens on a dedicated IP address (VIP; or virtual IP) and when a connection request (TCP SYN) comes in, it changes the destination IP of the packet to one of its backend servers. The packet is then forwarded to that backend with the new IP address. The main benefit of this mode of operation is its simplicity, but it comes at a cost: all the return packets also need to pass through the load balancer, so it can change the source IP address back to the VIP.
+The simplest mode of operations is the **NAT/Masquerade mode**. The load balancer listens on a dedicated IP address (VIP; or virtual IP) and when a connection request or a packet belonging to an existing connection come in, it changes the destination IP of the packet to one of its backend servers. The packet is then forwarded to that backend with the new IP address. The main benefit of this mode of operation is its simplicity, but it comes at a cost: all the return packets also need to pass through the load balancer, so it can change the source IP address back to the VIP.
 
 ![](/posts/ipvs-the-linux-load-balancer/dr-01.svg "IPVS in Direct Routing mode")
 
-The second mode of operation is the **Gateway, Direct Routing, or Direct Response mode**. In this mode the load balancer receives the incoming packet to the VIP, but doesn't touch the destination IP of the incoming packet. It rather looks at the network layer and changes the destination MAC (network card) address. The packet is then sent back on the network and arrives at the backend's network card. The backend also has the IP address configured and can accept the connection. The response is sent directly from the backend to the network, bypassing the load balancer on the way back.
+The second mode of operation is the **Gateway, Direct Routing, or Direct Response mode**. In this mode the load balancer receives the incoming packet to the VIP, but doesn't touch the destination IP of the incoming packet. Instead, it changes the destination MAC (network card) address to match one of the backends' network card. The packet travels over the network to the backend server. The backend server also has the VIP configured, so it can accept the packet forwarded from the load balancer. The response packet from the backend is sent to the local router directly, without touching the load balancer.
 
-In this scenario the VIP is configured on both the load balancer and the backends. In order to avoid having an IP conflict the backends must be configured to not advertise the VIP on the network. The main benefit of the DR mode is the reduced load on the load balancer as it only needs to deal with the incoming packets, but not the outgoing responses. The drawback of this mode is that it only works on the local network and won't scale when backends are in different network segments.
+It is important to note, that both the load balancer and the backends have the VIP configured. Normally, this would lead to an IP address conflict. However, we can configure the backends not to advertise the VIP on the network. This way, the only machine holding the VIP will be the load balancer as far as everyone else on the network is concerned. All incoming connections will pass through the load balancer.
+
+The main benefit of the DR mode is the reduced load on the load balancer, as it only needs to deal with the incoming packets, but not the outgoing responses. The drawback of this mode is the more complex setup, as well as the fact that it only works on the local network.
 
 ![](/posts/ipvs-the-linux-load-balancer/ipip-01.svg "IPVS in IPIP mode")
 
-The last mode of operation is **IPIP**. This mode is similar to the DR method, but instead of changing the destination MAC address, it sends the incoming IP packet to the backend using an IP tunnel. The main benefit of this method is scalability, but cause issues when the incoming packet is too big and the MTU limit is reached. In this case the added overhead of the encapsulation will cause IP fragmentation. A good workaround for this problem can be a larger MTU, but that is only possible when you are in full control of the network infrastructure between the load balancer and the backend.
+The last mode of operation supported by IPVS is **IPIP**. This mode is similar to the DR method, but instead of changing the destination MAC address, it sends the incoming IP packet to the backend using an IP tunnel. The main benefit of this method is scalability, but cause issues when the incoming packet is too big, and the MTU limit is reached. The added overhead of the encapsulation can cause IP fragmentation. A good workaround for the MTU problem is be a larger MTU, but that is only possible when you are in full control of the network infrastructure between the load balancer and the backend.
 
 ## Our lab setup
 
@@ -47,7 +51,7 @@ As a central piece of this setup we'll install a Linux virtual machine called `r
 
 We will also have two networks: one for the client side, and one for our server setup. Our client will be a second virtual machine with `curl` installed, while on the server network we'll install 3 VM's: two for webservers and one for the load balancer.
 
-The `client` machine will have the IP `192.168.88.2`, while the router will have the IP of `192.168.88.1` on the client network and the IP `10.0.0.1` on the server network. The load balancer will have two IP's: `10.0.0.2` as its real IP and `10.0.1.1` as the *virtual IP*. The backends will have the IP's `10.0.2.1` and `10.0.2.2`, respectively.
+The `client` machine will have the IP `192.168.88.2`, while the router will have the IP of `192.168.88.1` on the client network and the IP `10.0.0.1` on the server network. The load balancer will have two IP's: `10.0.0.2` as its real IP and `10.0.1.1` as the *virtual IP* (VIP). The backends will have the IP's `10.0.2.1` and `10.0.2.2`, respectively.
 
 Depending on the IPVS method used the backends may or may not have the VIP configured on an internal interface.
 
