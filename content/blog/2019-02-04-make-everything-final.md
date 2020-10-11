@@ -44,9 +44,8 @@ my suggestion seems to violate the Open-Closed principle (OCP).
 
 There are multiple authors who described this principle, but all of them boil down to the same point:
 
-- Software Development
-Open-Closed Principle**: Software entities (classes, modules, functions, etc.) should be open for extension, but 
-> closed for modification. *&mdash; Robert C. Martin*
+Software Development Open-Closed Principle
+: *Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.* &mdash; Robert C. Martin*
 
 The reason for the open part should be pretty obvious: if a module / class / etc is not open, there is no way to extend
 it with additional functionality without modifying the code of the original module.
