@@ -21,9 +21,9 @@ publishDate: "2020-10-11T00:00:00Z"
 
 Now that we know there is an element of bad luck involved in any hiring process, let’s assume you’ve been in the lucky group of people whose profile was noticed by recruiters or hiring managers. *Good job!*
 
-You didn’t do anything so far, but you either have an interesting name, or you’re in a region that wasn’t automatically dismissed by the system, or you’ve used the keywords in your resume correctly. Half of the game is to not get thrown away by *“the system”*.
+You haven’t done much so far, but you either have an interesting name, or you’re in a region that wasn’t automatically dismissed by the system, or you’ve used the keywords in your resume correctly. Half of the game is to not get thrown away by *“the system”*.
 
-If the company is aware of bad choices made by systems, they will opt to show all applicants in the list. A human will then go through the exhausting exercise of looking at all the applicants manually. We did that at every company I have hired for so far. You only have a certain amount of hours in the day and even if you want to treat everyone with respect and give good feedback, there comes a time when you, too, will just send out generic rejections &mdash; no matter whether you work in talent acquisition or are the hiring manager.
+If the company is aware of bad choices made by systems, they will opt to show all applicants in the list. A human will then go through the exhausting exercise of looking at all the applicants manually. We did that at every company I have hired for so far. You only have a certain amount of hours in the day. Even though you want to treat everyone with respect and give good feedback, there comes a time when you, too, will just send out generic rejections &mdash; no matter whether you work in talent acquisition or are the hiring manager.
 
 ![](/posts/after-100-interviews-hiring-manager/dice.jpg "It’s a number’s game. Photo by [Alex Chambers](https://unsplash.com/@alexchambers) on [Unsplash](https://unsplash.com/s/photos/numbers)")
 
@@ -61,9 +61,9 @@ Start building your network and then continue doing that. If you want a fabulous
 
 ### Check your social media accounts
 
-Are you constantly mentioning companies, platforms, and people who annoy your or otherwise are *“doing it wrong”*, especially when you have no track record of having achieved anything similar?
+Are you constantly mentioning companies, platforms, and people who annoy you or otherwise are *“doing it wrong”*, especially when you have no track record of having achieved anything similar? Consider stopping that - if you have nothing nice to say, sometimes it’s better to say nothing at all.
 
-Here’s my own example: I specifically set up a Twitter account to get a job where I can work from home, many years ago. I was careful of what I posted as I had only one purpose for it: get that job somewhere in open source that lets me work from home. It worked.
+Here’s my own example: I specifically set up a Twitter account to get a job where I can work from home, many years ago. I was careful of what I posted as I had only one purpose for it: get that job somewhere in open source that lets me work from home. In my case, it worked.
 
 But you know what one of the people in the hiring process also told me? They went through literally *every one of my tweets* and replies from 2 years to figure out who I am. They even asked about one or two tweets that were 1-2 years old. Those were experimental tweets where I had tested the response as opposed to the normal type of tweets I did. Those tweets helped me get the job! Naturally, I deleted my Twitter right after I landed that job because it had served its purpose so why bother wasting time?
 
@@ -77,7 +77,7 @@ It’s your first job? Show university or bootcamp tasks you’re especially pro
 
 Often, applicant tracking systems will show GitHub/Twitter/other links as an additional column next to the candidate. That is helpful, because now I don’t even have to look at your resume, and your profile will automatically receive a premium boost. It almost guarantees that your resume won’t get thrown away *but* there are some pitfalls.
 
-You need real content and quality material. Don’t plagiarize. It’s better have your resume thrown away in one company and then chosen in another than to show that you can’t produce original content or that you jumbled things together in a hurry to look better. Slow and steady wins the race here. Build your portfolio over time and apply with your normal resume and no additional links in the meantime, if you don’t have anything original to show.
+You need real content and quality material. Don’t plagiarize. It’s better to have your resume thrown away in one company and then chosen in another than to show that you can’t produce original content or that you jumbled things together in a hurry to look better. Slow and steady wins the race here. Build your portfolio over time and apply with your normal resume and no additional links in the meantime, if you don’t have anything original to show.
 
 ### Final Tips
 
