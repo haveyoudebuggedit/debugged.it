@@ -25,7 +25,7 @@ You haven’t done much so far, but you either have an interesting name, or you�
 
 If the company is aware of bad choices made by systems, they will opt to show all applicants in the list. A human will then go through the exhausting exercise of looking at all the applicants manually. We did that at every company I have hired for so far. You only have a certain amount of hours in the day. Even though you want to treat everyone with respect and give good feedback, there comes a time when you, too, will just send out generic rejections &mdash; no matter whether you work in talent acquisition or are the hiring manager.
 
-![](/posts/after-100-interviews-hiring-manager/dice.jpg "It’s a number’s game. Photo by [Alex Chambers](https://unsplash.com/@alexchambers) on [Unsplash](https://unsplash.com/s/photos/numbers)")
+![](/posts/after-100-interviews-hiring-manager/dice.jpg "It’s a numbers game. Photo by [Alex Chambers](https://unsplash.com/@alexchambers) on [Unsplash](https://unsplash.com/s/photos/numbers)")
 
 As a hiring manager, I’d take an extra 1-2 hours *“after work”* per day in heavy hiring seasons to go through each resume. When I say *“go through each resume”*, I really mean going through a *random sample* at the beginning, at the end, and somewhere in the middle of the list. For a regular engineering position, I’d look at maybe 20% of incoming applicants &mdash; remember, it’s not my main job, but I’m trying to help out the recruiter who’s also recruiting for 5 other hiring managers who get just about as many applications. Being the hiring manager means I’m on the lookout for someone *I’d like to work with* and who *fits the team*.
 
