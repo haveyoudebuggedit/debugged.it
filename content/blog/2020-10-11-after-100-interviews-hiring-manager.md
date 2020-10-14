@@ -23,7 +23,9 @@ Now that we know there is an element of bad luck involved in any hiring process,
 
 You haven’t done much so far, but you either have an interesting name, or you’re in a region that wasn’t automatically dismissed by the system, or you’ve used the keywords in your resume correctly. Half of the game is to not get thrown away by *“the system”*.
 
-If the company is aware of bad choices made by systems, they will opt to show all applicants in the list. A human will then go through the exhausting exercise of looking at all the applicants manually. We did that at every company I have hired for so far. You only have a certain amount of hours in the day. Even though you want to treat everyone with respect and give good feedback, there comes a time when you, too, will just send out generic rejections &mdash; no matter whether you work in talent acquisition or are the hiring manager.
+If the company is aware of bad choices made by systems, they will opt to show all applicants in the list. A human will then go through the exhausting exercise of looking at all the applicants manually. We did that at every company I have hired for so far.
+
+In general, we had *300-500 applications per role*. You only have a certain amount of hours in the day. Even though you want to treat everyone with respect and give good feedback, there comes a time when you, too, will just send out generic rejections &mdash; no matter whether you work in talent acquisition or are the hiring manager.
 
 ![](/posts/after-100-interviews-hiring-manager/dice.jpg "It’s a numbers game. Photo by [Alex Chambers](https://unsplash.com/@alexchambers) on [Unsplash](https://unsplash.com/s/photos/numbers)")
 
