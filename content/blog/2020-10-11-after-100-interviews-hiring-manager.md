@@ -106,11 +106,11 @@ It’s better to not have a GitHub profile linked than to have none of your own 
  
 Once it comes to the interview stage, your resume is hereby mostly irrelevant. It’s now all about your skills and communication.
  
-### Show me that you could manage me
+### Make your interviewer want to work with you
 
-When I hire someone, I look at whether I would want that person to manage me. You never know how the world will spin, and some day you might be in the hiring manager’s position while I will be looking for a job. Show me in the interview that I would want to work with you. Don’t exhibit rage. Don’t show indifference. Don’t make me feel like you’re treating others as inferior. Don’t talk just about yourself. Don’t talk just about money.
+When I hire someone, I look at whether I would want to work with that person or even want that person to manage me. You never know how the world will spin, and some day you might be in the hiring manager’s position while I will be looking for a job. Show me in the interview that I would want to work with you. Don’t exhibit rage. Don’t show indifference. Don’t make me feel like you’re treating others as inferior. Don’t talk just about yourself. Don’t talk just about money.
 
-### Listen to what I’m saying very carefully
+### Listen to your interviewer carefully
 
 I’m interviewing you as the manager for a remote team and tell you that flexibility is very important for the culture we want to cultivate. Furthermore, I explain to you how we do it right now, then ask you, *“how would you continue that spirit of flexibility and intrinsic motivation?”* Please don’t let your answer be, *“I ensure flexibility by letting the people come to work at 8, 9, or even 10 am”*. This is an actual answer I have received by someone who was so focused on looking good in the interview process and having their rehearsed answers ready that they simply did not listen to the interviewer.
 
