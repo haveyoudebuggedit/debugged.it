@@ -63,7 +63,7 @@ Start building your network and then continue doing that. If you want a fabulous
 
 ### Check your social media accounts
 
-Are you constantly mentioning companies, platforms, and people who annoy you or otherwise are *“doing it wrong”*, especially when you have no track record of having achieved anything similar? Consider stopping that - if you have nothing nice to say, sometimes it’s better to say nothing at all.
+If you link your social media accounts on your resume, anything on there is likely to get seen by the recruiter or hiring manager or anyone who is going to be interviewing you. Are you constantly mentioning companies, platforms, and people who annoy you or otherwise are *“doing it wrong”*, especially when you have no track record of having achieved anything similar? Consider stopping that - if you have nothing nice to say, sometimes it’s better to say nothing at all.
 
 Here’s my own example: I specifically set up a Twitter account to get a job where I can work from home, many years ago. I was careful of what I posted as I had only one purpose for it: get that job somewhere in open source that lets me work from home. In my case, it worked.
 
