@@ -67,7 +67,7 @@ If you link your social media accounts on your resume, anything on there is like
 
 Here’s my own example: I specifically set up a Twitter account to get a job where I can work from home, many years ago. I was careful of what I posted as I had only one purpose for it: get that job somewhere in open source that lets me work from home. In my case, it worked.
 
-But you know what one of the people in the hiring process also told me? They went through literally *every one of my tweets* and replies from 2 years to figure out who I am. They even asked about one or two tweets that were 1-2 years old. Those were experimental tweets where I had tested the response as opposed to the normal type of tweets I did. Those tweets helped me get the job! Naturally, I deleted my Twitter right after I landed that job because it had served its purpose so why bother wasting time?
+But you know what one of the people in the hiring process also told me? They went through literally *every one of my tweets* and replies from 2 years to figure out who I am. They even asked about one or two tweets that were 1-2 years old. Those were experimental tweets where I had tested the response as opposed to the normal type of tweets I did. Those tweets helped me get the job! Naturally, I deleted my Twitter right after I landed that job because it had served its purpose.
 
 ### Check your other accounts
 
