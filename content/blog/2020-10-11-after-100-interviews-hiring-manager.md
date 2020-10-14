@@ -85,7 +85,7 @@ If you have a GitHub (or other public account) to show, that’s definitely a bo
 
 A list of added links shows me that I can get some real information elsewhere. I can very quickly build an opinion from a blog that has one post and is clearly copied from another blog. It’s similar to a sentence in your resume throwing around vague terms like *“supervised activities of engineers in a long-term innovative project using agile techniques with a young and dynamic team”*.
 
-If you include things like blockchain or Kubernetes in your resume, I’m very likely going to give you a hard time during the interview, if you even get selected to that stage. Leave them out unless you have really worked with them and can give me something interesting to talk about during the interview.
+If you include things like blockchain, Kubernetes, Machine Learning, or any other currently trending tech topics in your resume, I'm very likely going to ask you detailed questions to make sure you actually know them. Leave them out unless you have really worked with them and can give me something interesting to talk about during the interview.
 
 ---
 
