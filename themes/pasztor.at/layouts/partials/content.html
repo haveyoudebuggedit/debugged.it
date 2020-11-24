@@ -1,17 +1,4 @@
 {{ $content := .Content }}
-{{ range $term, $termData := .Site.Data.acronyms }}
-    {{ $search := printf "([\\s(>])%s([\\s)\\.\\?\\!<])" $term }}
-    {{ $pronounciation := replace $termData.pronounciation "$" "\\$"}}
-    {{ $replaceTerm := replace $term "$" "\\$" }}
-    {{ $replace := printf "$1<acronym aria-label=\"%s\">%s</acronym>$2" (htmlEscape $pronounciation) $replaceTerm }}
-    {{ $content = replaceRE $search $replace $content }}
-
-    {{ $search = printf "([\\s(>])%s(|'|’)s([\\s)\\.\\?\\!<])" $term }}
-    {{ $pronounciation = replace $termData.pronounciation "$" "\\$"}}
-    {{ $pronounciation = printf "%ss" $pronounciation }}
-    {{ $replace = printf "$1<acronym aria-label=\"%s\">%s’s</acronym>$3" (htmlEscape $pronounciation) $replaceTerm }}
-    {{ $content = replaceRE $search $replace $content }}
-{{ end }}
 {{ if $.PublishDate }}
     {{ $content = replaceRE "(</p>)\\s*$" " <span aria-label=\"End of article.\" role=\"text\" class=\"tombstone\">∎</span>$1" $content }}
 {{ end }}
