@@ -49,7 +49,7 @@ Well, not so fast. How is the user going to be routed to the right server? Let's
 getting a site. First, the users browser uses the Domain Name System (DNS) to look up the IP address of the website.
 Once it has the IP address, it can connect the website and download the requested page.
 
-![The user first looks up the IP of "pasztor.at" from the DNS service. Then the user requests the page from the IP looked up.](posts/building-your-own-cdn/dns.svg)
+![The user first looks up the IP of pasztor.at from the DNS service. Then the user requests the page from the IP looked up.](posts/building-your-own-cdn/dns.svg)
 
 If we think about it on a high level, the solution is quite simple: we need a smart DNS server that does a GeoIP
 lookup on the requesting IP address and returns the IP address closest to it. And indeed, that's (almost) how commercial CDNs do it. There is a bit more engineering involved, like measuring latencies, but this is basically how it's done. 
@@ -183,7 +183,7 @@ Oh, and I like to flip Google AMP off because it's a terrible technology. Not th
 ## Build your own
 
 Now it's up to you: do you want to build your own CDN?
-[The source code for mine is right there on my GitHub.](https://github.com/janoszen/pasztor.at/tree/master/_ansible)
+[The source code for mine is right there on my GitHub.](https://github.com/janoszen/pasztor.at/tree/legacy/_ansible)
 Go nuts!  
 
 ## One year later...
