@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo -b https://pasztor.at/ -D --gc"
+command = "hugo -b https://debugged.it/ -D --gc"
 
 [context.production.environment]
 HUGO_VERSION = "0.74.2"
