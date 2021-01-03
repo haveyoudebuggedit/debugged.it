@@ -9,7 +9,7 @@ title: Imprint
 {{% /warning %}}
 
 E-mail:
-: <span role="text" aria-label="contact at P A S Z T O R dot A T">contact&#64;pasztor.at</span>
+: <span role="text" aria-label="have dot you at debugged dot it">have.you&#64;debugged.it</span>
 
 Postal address:
-: <span role="text" aria-label="We only hand out our postal address to law firms or government entities. Please write an e-mail to contact at P A S Z T O R dot A T, and you will be given a postal address suitable for legal service.">We only hand out our postal address to law firms or government entities. Please write an e-mail to contact&#64;pasztor.at, and you will be given a postal address suitable for legal service.</span>
+: <span role="text" aria-label="We only hand out our postal address to law firms or government entities. Please write an e-mail to the e-mail above, and you will be given a postal address suitable for legal service.">We only hand out our postal address to law firms or government entities. Please write an e-mail to contact&#64;pasztor.at, and you will be given a postal address suitable for legal service.</span>
