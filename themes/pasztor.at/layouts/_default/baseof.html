@@ -15,10 +15,8 @@ Feel free to learn and build your own!
         <title>{{- block "title" . }}{{ if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title }}{{- end }}</title>
         <link rel="canonical" href="{{ .Permalink }}" />
 
-        {{"<!-- region Social -->" | safeHTML}}
         {{ partial "opengraph.html" . }}
         {{ partial "twitter_cards.html" . }}
-        {{"<!-- endregion -->\n" | safeHTML}}
 
         {{- block "meta" . }}{{- end }}
 
@@ -42,10 +40,8 @@ Feel free to learn and build your own!
             {{ end }}
         {{ end }}
 
-        {{"<!-- region Social -->" | safeHTML}}
         <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
         <meta name="copyright" content="{{ .Site.Copyright }}" />
-        {{"<!-- endregion -->\n" | safeHTML}}
 
         {{ range .AlternativeOutputFormats -}}
             {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink .Name | safeHTML }}

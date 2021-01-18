@@ -1,0 +1,4 @@
+---
+title: Golang
+type: structured
+---

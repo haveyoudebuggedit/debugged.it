@@ -1,4 +1,5 @@
 ---
+type: exercise
 slug: intercontinental-docker-swarm
 guid: https://pasztor.at/blog/intercontinental-docker-swarm/
 authors:

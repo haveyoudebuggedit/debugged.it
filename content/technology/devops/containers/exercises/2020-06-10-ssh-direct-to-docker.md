@@ -113,7 +113,7 @@ When I recently started learning Go I have discovered that the extended standard
 for me: reimplement the SSH server in Go.
 
 {{% tip %}}
-**Note:** You can grab [the code in this post from GitHub](https://github.com/janoszen/minicontainerssh). Please note that it emphasizes learning over structure. If you would like to see a more production-ready version take a look at my [ContainerSSH project](https://github.com/janoszen/containerssh).
+**Note:** You can grab [the code in this post from GitHub](https://github.com/containerssh/minicontainerssh). Please note that it emphasizes learning over structure. If you would like to see a more production-ready version take a look at my [ContainerSSH project](https://github.com/containerssh/containerssh).
 {{% /tip %}}
 
 First we start with a nice and easy TCP server. This one will `Listen` on a certain IP and port for connections:

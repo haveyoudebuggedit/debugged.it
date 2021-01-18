@@ -1,4 +1,5 @@
 ---
+type: exercise
 slug: building-your-own-cdn
 guid: https://pasztor.at/blog/building-your-own-cdn/
 authors: 
@@ -17,7 +18,6 @@ tags:
 - Cloud
 title: Building your own CDN for Fun and Profit
 ---
-
 
 As you can (hopefully) see from this site, I like my pages *fast*. Very, very fast. Now, before we jump into this, let
 me be very clear about it: using a CDN will only get you so far. If your site is slow because of shoddy frontend work,

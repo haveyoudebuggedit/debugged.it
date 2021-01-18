@@ -1,4 +1,5 @@
 ---
+type: exercise
 slug: make-aws-less-painful-with-lambda
 guid: https://pasztor.at/blog/make-aws-less-painful-with-lambda/
 authors:

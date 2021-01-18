@@ -1,4 +1,5 @@
 ---
+type: exercise
 slug: immutable-infra-1
 guid: https://pasztor.at/blog/immutable-infra-1/
 authors:

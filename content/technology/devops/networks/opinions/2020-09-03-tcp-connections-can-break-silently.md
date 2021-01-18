@@ -21,7 +21,7 @@ Here’s a little thing that may have big consequences, especially when it comes
 
 TCP connections silently breaking can cause your microservices to hang indefinitely. What’s worse, this may only happen in production, and I’ll explain in this post why. If you are experienced in writing microservices you may have worked around that by implementing a [circuit breaker](https://martinfowler.com/bliki/CircuitBreaker.html) in your application. However, if you are just getting started with microservices you may want to keep reading.
 
-*“Wait a minute! ”* &mdash; you may think &mdash; *“ Isn’t TCP supposed to be reliable?”* Yes, you are right. TCP guarantees any submitted data to be either reliably transmitted, or you will receive an error. However, if you transmit no data over a connection TCP (on default settings) does not check if the connection is still alive.
+*“Wait a minute!”* &mdash; you may think &mdash; *“Isn’t TCP supposed to be reliable?”* Yes, you are right. TCP guarantees any submitted data to be either reliably transmitted, or you will receive an error. However, if you transmit no data over a connection TCP (on default settings) does not check if the connection is still alive.
 
 How does this check work when data is sent, you ask? Every so often the receiving party sends an *acknowledgement* packet to the sending party for the data it has received. If an acknowledgement is not received within 3 seconds the TCP packet is *retransmitted*. If no data is sent, no acknowledgement is sent either. In other words, there is no packets are traveling between the two parties.
 
